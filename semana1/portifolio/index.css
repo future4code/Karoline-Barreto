@@ -1,0 +1,225 @@
+
+
+
+#imagemcabecalho {
+  height: 50%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+#fotoperfil img {
+    margin-top: 130px;
+    margin-left: 5%;
+	  float: right;
+	  border: 3px solid black;
+    width: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+* {box-sizing: border-box;}
+  body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+
+  .navbar  {
+width: 100%;
+background-color: #2B4168;
+overflow: auto;
+}
+
+.navbar a {
+float: left;
+padding: 15px;
+color: #E4F2F1;
+text-decoration: none;
+font-size: 17px;
+width: 16.666%;
+text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #F29F8C;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  }
+
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2B4168;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: #DFEBEF;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+      }
+  
+      li a:hover {
+        background-color: #111;
+      }
+
+#textoquemsoueu {
+    
+
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+	  color: #F29F8C;
+	  font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #E4F2F1;
+}
+
+#instituicao {
+  position: absolute;
+  left: 0px;
+  margin-right: 50px;
+  margin-bottom: 10%;
+  padding-right: 120px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color:#E4F2F1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  background-color: #F29F8C;
+  
+}
+
+#redes  {
+  
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20%;
+  margin-left: 50%;
+  
+}
+
+
+
+#contatos {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-top: 100px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+
+
+#redessociais {
+  display: flex;
+  justify-content: center;
+  float: right;
+  
+  margin-right: 130px;
+  
+}
+
+.titulo1 {
+  color: #333;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  background-color: #E4F2F1;
+}
+
+.titulo1--bg_rosa{
+  background-color: #F29F8C;
+}
+
+
+#grafico {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  
+}
+
+#textografico {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+ 
+}
+  
+
+  
+
+
+#empresas {
+  display: flex;
+  justify-content: center;  
+}
+
+fieldset {
+  width: 50%;
+  
+  padding: 12px 20px; 
+  box-sizing: border-box;
+  border: 2px solid #2B4168;;
+  border-radius: 4px;
+  float: left;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-right: 45%;
+  box-sizing: border-box;
+  border: 2px solid #2B4168;;
+  border-radius: 4px;
+  text-align: left;
+  float: left;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  margin-right: 45%;  
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #2B4168;;
+  border-radius: 4px;
+  float: left;
+  text-align: left;
+  
+}
+
