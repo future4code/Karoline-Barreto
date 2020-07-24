@@ -1,0 +1,119 @@
+
+/*exercicio1*/
+justify-content: flex-end
+/*exercicio2*/
+justify-content: center
+/*exercicio3*/
+justify-content: space-around;
+/*exercicio4*/
+justify-content: space-between;
+/*exercicio5*/
+align-items: flex-end;
+/*exercicio6*/
+justify-content: center;
+align-items: center;
+
+/*exercicio7*/
+justify-content: space-around;
+align-items: flex-end;
+/*exercicio8*/
+flex-direction: row-reverse;
+/*exercicio9*/
+flex-direction: column;
+/*exercicio10*/
+flex-direction: row-reverse;
+justify-content:flex-end
+/*exercicio11*/
+flex-direction: column;
+justify-content: flex-end;
+/*exercicio12*/
+flex-direction: column-reverse; 
+justify-content:  space-between;
+/*exercicio13*/
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+/*exercicio14*/
+order:3;
+/*exercicio15*/
+order:-3;
+/*exercicio16*/
+align-self: flex-end;
+/*exercicio17*/
+order: 1;
+align-self: flex-end;
+/*exercicio18*/
+flex-wrap: wrap; 
+/*exercicio19*/
+flex-direction: column;
+flex-wrap: wrap;
+/*exercicio20*/
+flex-flow: column wrap;
+/*exercicio21*/
+align-content: flex-start;
+/*exercicio22*/
+align-content: flex-end;
+/*exercicio23*/
+flex-direction: column-reverse;
+align-content: center;
+
+/*EXERCICIO GRID*/
+
+/*exercicio1*/
+grid-column-start: 3;
+/*exercicio2*/
+grid-column-start: 5;
+/*exercicio3*/
+grid-column-end:4;
+/*exercicio4*/
+grid-column-end:-5
+/*exercicio5*/
+grid-column-end:5;
+/*exercicio6*/
+grid-column-start:4
+/*exercicio7*/
+grid-column-end: span 2
+/*exercicio8*/
+grid-column-end: span 5;
+/*exercicio9*/
+grid-column-start: span 3;
+/*exercicio10*/
+grid-column: 4/6;
+/*exercicio11*/
+grid-column: 2/5
+/*exercicio12*/
+grid-row-start:3
+/*exercicio13*/
+grid-row:3/6;
+/*exercicio14*/
+grid-column:2;
+grid-row:5;
+/*exercicio15*/
+grid-column: 2/6;
+grid-row:1/6;
+/*exercicio16*/
+grid-area: 1 / 2 /4 /6
+/*exercicio17*/
+grid-area: 2 /3 / 5 / 6
+/*exercicio18*/
+order:7
+/*exercicio19*/
+order: -1;
+/*exercicio20*/
+grid-template-columns: 50%;
+/*exercicio21*/
+grid-template-columns: repeat(8, 12.5%);
+/*exercicio22*/
+grid-template-columns: 100px 3em 40%
+/*exercicio23*/
+grid-template-columns: 1fr 5fr
+/*exercicio24*/
+grid-template-columns: 50px 1fr 1fr 1fr 50px
+/*exercicio25*/
+grid-template-columns: 75px 3fr 2fr 
+/*exercicio26*/
+grid-template-rows: 12.5px 12.5px 12.5px 12.5px 1fr
+/*exercicio27*/
+grid-template: 60% / 200px
+/*exercicio28*/
+grid-template: 1fr 12.5px 12.5px 12.5px 12.5px  /20% 80%
